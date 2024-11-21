@@ -1,18 +1,141 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: arial;
-
-}
 .navbar{
-    overflow: hidden;
-    background-color: bisque;
-
-}
-.navbar a{
-    float: left;
-    color:rgb(94, 19, 61);
     text-align: center;
+    font-family: 'roboto';
+    background-color: rgb(155, 45, 23);
+    justify-content: center;
+    padding:20px;
+    margin: 0px;
+    background-color: bisque;
+    overflow: hidden; 
+}    
+.navbar a:hover{
+    background-color: rgb(213, 170, 118);
+    border: cover;
+}
+
+.navbar a {
+    color: rgb(163, 7, 7);
+    display: inline;
     padding: 20px 16px;
+    text-align: center;
+    text-decoration: none;
+    
     
 }
+body{
+    margin:10px;
+    font-family: 'roboto';
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+  }
+  html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6cm;
+    overflow-x: hidden;
+  }
+  header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: blue;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    box-shadow: 0 5rem 1rem beige;
+
+  }
+.icons {
+    font-size: 2.5rem;
+    color: rgb(163, 75, 90);
+   text-align: end;
+   justify-content: center;
+   padding:20px;
+   margin: 0px;
+  }
+.icons a:hover{
+    color:var(--rgb);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('your-image.jpg') repeat-y; /* Replace with your background image */
+    background-size: cover;
+    animation: moveBackground 15s linear infinite;
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Default styles for all screens */
+  body {
+    background-color: lightblue;
+    font-size: 16px;
+}
+/* For screens wider than 600px */
+@media (min-width: 600px) {
+    body {
+        background-color: lightgreen;
+        font-size: 18px;
+    }
+}
+.section{
+    background-color: bisque;
+    
+}
+.home .content{
+    max-width: 50rem;
+}
+
+.home .section h1{
+    font-size: 7rem;
+    padding: 20px;
+    margin: 8px;px
+}
+
+.section img{
+    height: 250px;
+}
+   
+
